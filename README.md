@@ -9,9 +9,15 @@ If there's an issue, let me know.
 ### Pretty Verium Unicode Logon Picture (cat issue.verium)
  * [Verium Unicode Picture](https://github.com/bezeredi/verium-mining-files/blob/master/issue.verium)
 
+![alt text][verium-logo]
+[verium-logo]: https://github.com/bezeredi/verium-mining-files/blob/master/issue.verium.png "Unicode Verium Logo"
+
 ### Display and Miner API Scripts (Require Python 3.x, libzmq, and pyzmq)
  * [Miner API Daemon](https://github.com/bezeredi/verium-mining-files/blob/master/miner-apid.py)
  * [LAN Miner Status](https://github.com/bezeredi/verium-mining-files/blob/master/cluster.py)
+
+![alt text][monitor-preview]
+[monitor-preview]: https://github.com/bezeredi/verium-mining-files/blob/master/vrm-mining-rig-monitor.png "CLI Monitor Preview"
 
 ### Logfile Scripts
  * [Get Miner Status](https://github.com/bezeredi/verium-mining-files/blob/master/is-mining.sh)
