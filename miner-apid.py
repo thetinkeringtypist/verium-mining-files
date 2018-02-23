@@ -6,6 +6,12 @@
 #  Run as a daemon after both cpuminers start.
 #
 #! For use with Fireworm71's Verium Miner, API Version 1.1
+#
+#! Configured to monitor two running instances of cpuminer, one on port 4048
+#  and another on port 4049. This script consolodates info from both miners
+#  and replies to any requests from the monitor. The cpuminers need to have
+#  already have started. Add a line in your rc.local to run this script in the
+#  background after your cpuminers.
 import zmq
 import socket as pysocket
 import sys

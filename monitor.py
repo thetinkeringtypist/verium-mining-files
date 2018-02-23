@@ -2,9 +2,13 @@
 #
 #! Author: Bezeredi, Evan D.
 #
-#! Client to request and display data from cpuminer api daemons
+#! CLI Monitor to display cpuminer information for each worker on the LAN
 #
 #! NOTE: Requires a list of hostnames on the LAN in /home/<username>/.chosts
+#        Also requires miner-apid.py to run on each worker.
+#
+#! I have this script running on my LAN controller so that finding each machine
+#  on the LAN is not a problem
 import zmq
 import time
 import sys
