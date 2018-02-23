@@ -6,7 +6,7 @@ most well engineered solutions, but they work for me (mostly).
 
 If there's an issue, let me know.
 
-### Pretty Verium Unicode Logon Picture (cat issue.verium)
+### Pretty Verium Unicode Logon Picture
  * [Verium Unicode Picture](https://github.com/bezeredi/verium-mining-files/blob/master/issue.verium)
 
 ![alt text](https://github.com/bezeredi/verium-mining-files/blob/master/issue.verium.png "Unicode Verium Logo")
