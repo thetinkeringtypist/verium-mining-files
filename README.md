@@ -7,24 +7,24 @@ most well engineered solutions, but they work for me (mostly).
 If there's an issue, let me know.
 
 ### Pretty Verium Unicode Logon Picture (cat issue.verium)
- * [Verium Unicode Picture](https://github.com/bezeredi/verium-mining-scripts/blob/master/issue.verium)
+ * [Verium Unicode Picture](https://github.com/bezeredi/verium-mining-files/blob/master/issue.verium)
 
 ### Display and Miner API Scripts (Require Python 3.x, libzmq, and pyzmq)
- * [Miner API Daemon](https://github.com/bezeredi/verium-mining-scripts/blob/master/miner-apid.py)
- * [LAN Miner Status](https://github.com/bezeredi/verium-mining-scripts/blob/master/cluster.py)
+ * [Miner API Daemon](https://github.com/bezeredi/verium-mining-files/blob/master/miner-apid.py)
+ * [LAN Miner Status](https://github.com/bezeredi/verium-mining-files/blob/master/cluster.py)
 
 ### Logfile Scripts
- * [Get Miner Status](https://github.com/bezeredi/verium-mining-scripts/blob/master/is-mining.sh)
- * [Get Miner Hashrate](https://github.com/bezeredi/verium-mining-scripts/blob/master/hashrate.sh)
- * [Get Miner Shares](https://github.com/bezeredi/verium-mining-scripts/blob/master/shares.sh)
- * [CPU Temp](https://github.com/bezeredi/verium-mining-scripts/blob/master/cputemp.sh)
+ * [Get Miner Status](https://github.com/bezeredi/verium-mining-files/blob/master/is-mining.sh)
+ * [Get Miner Hashrate](https://github.com/bezeredi/verium-mining-files/blob/master/hashrate.sh)
+ * [Get Miner Shares](https://github.com/bezeredi/verium-mining-files/blob/master/shares.sh)
+ * [CPU Temp](https://github.com/bezeredi/verium-mining-files/blob/master/cputemp.sh)
 
 ### LAN Logfile Scripts
- * [LAN Miner Hashrate](https://github.com/bezeredi/verium-mining-scripts/blob/master/chashrate.sh)
- * [LAN Miner Shares](https://github.com/bezeredi/verium-mining-scripts/blob/master/cshares.sh)
- * [LAN Ping](https://github.com/bezeredi/verium-mining-scripts/blob/master/cping.sh)
- * [Machine CPU Temps](https://github.com/bezeredi/verium-mining-scripts/blob/master/ctemp.sh)
- * [Machine Uptimes](https://github.com/bezeredi/verium-mining-scripts/blob/master/cuptime.sh)
+ * [LAN Miner Hashrate](https://github.com/bezeredi/verium-mining-files/blob/master/chashrate.sh)
+ * [LAN Miner Shares](https://github.com/bezeredi/verium-mining-files/blob/master/cshares.sh)
+ * [LAN Ping](https://github.com/bezeredi/verium-mining-files/blob/master/cping.sh)
+ * [Machine CPU Temps](https://github.com/bezeredi/verium-mining-files/blob/master/ctemp.sh)
+ * [Machine Uptimes](https://github.com/bezeredi/verium-mining-files/blob/master/cuptime.sh)
 
 License
 -------
