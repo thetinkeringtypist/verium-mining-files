@@ -2,7 +2,7 @@
 #
 #! Author: Bezeredi, Evan D.
 #
-#! Client to request and display data from miner api daemons
+#! Client to request and display data from cpuminer api daemons
 #
 #! NOTE: Requires a list of hostnames on the LAN in /home/<username>/.chosts
 import zmq

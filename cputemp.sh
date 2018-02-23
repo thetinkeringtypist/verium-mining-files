@@ -2,7 +2,7 @@
 #
 #! Script to calculate the cpu temperature of this machine
 hostname=$(hostname)
-script_dir="/home/evan/scripts"
+script_dir="/home/$USERNAME/scripts"
 sum=0
 count=0
 highest_temp=0

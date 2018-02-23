@@ -2,7 +2,7 @@
 #
 #! Script to calculate the share percentage of this machine
 hostname=$(hostname)
-script_dir="/home/evan/scripts"
+script_dir="/home/$USERNAME/scripts"
 
 is_mining=$("$script_dir/is-mining.sh")
 

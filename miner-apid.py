@@ -2,7 +2,8 @@
 #
 #! Author: Bezeredi, Evan D.
 #
-#! Script that replies with miner info in a readable format for requesters
+#! Script that replies with miner info in a readable format for requesters.
+#  Run as a daemon after both cpuminers start.
 #
 #! For use with Fireworm71's Verium Miner, API Version 1.1
 import zmq

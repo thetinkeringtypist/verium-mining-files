@@ -1,8 +1,8 @@
 #!/bin/bash
 #
 #! A script that calculates the hashrate of all machines on the network.
-hosts=$(cat /home/evan/.chosts)
-script_dir="/home/evan/scripts"
+hosts=$(cat "/home/$USERNAME/.chosts")
+script_dir="/home/$USERNAME/scripts"
 temp_sum=0
 count=0
 
