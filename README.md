@@ -11,7 +11,7 @@ If there's an issue, let me know.
 
 ![alt text](https://github.com/bezeredi/verium-mining-files/blob/master/issue.verium.png "Unicode Verium Logo")
 
-### Display and Miner API Scripts (Require Python 3.x, libzmq, and pyzmq)
+### Monitor and Miner API Scripts (Require Python 3.x, libzmq, and pyzmq)
  * [Miner API Daemon](https://github.com/bezeredi/verium-mining-files/blob/master/miner-apid.py)
  * [LAN Miner Monitor](https://github.com/bezeredi/verium-mining-files/blob/master/monitor.py)
 
