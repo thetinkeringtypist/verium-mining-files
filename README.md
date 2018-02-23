@@ -13,7 +13,7 @@ If there's an issue, let me know.
 
 ### Display and Miner API Scripts (Require Python 3.x, libzmq, and pyzmq)
  * [Miner API Daemon](https://github.com/bezeredi/verium-mining-files/blob/master/miner-apid.py)
- * [LAN Miner Status](https://github.com/bezeredi/verium-mining-files/blob/master/cluster.py)
+ * [LAN Miner Monitor](https://github.com/bezeredi/verium-mining-files/blob/master/monitor.py)
 
 ![alt text](https://github.com/bezeredi/verium-mining-files/blob/master/vrm-mining-rig-monitor.png "CLI Monitor Preview")
 
