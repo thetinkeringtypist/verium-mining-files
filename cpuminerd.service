@@ -5,8 +5,8 @@ After=network.target
 [Service]
 Type=forking
 User=miner
-ExecStart=/usr/local/bin/start-minerd.sh
-ExecStop=/usr/local/bin/stop-minerd.sh
+ExecStart=/usr/local/bin/start-cpuminerd.sh
+ExecStop=/usr/local/bin/stop-cpuminerd.sh
 Restart=on-failure
 
 [Install]
