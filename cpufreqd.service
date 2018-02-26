@@ -1,0 +1,11 @@
+[Unit]
+Description="CPU Frequency Configuration (One Shot)"
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/local/bin/set-cpufreq.sh
+
+[Install]
+WantedBy=multi-user.target
+WantedBy=cpuminerd.service

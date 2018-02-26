@@ -1,0 +1,11 @@
+[Unit]
+Description="GPU Frequency Configuration (One Shot)"
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/local/bin/set-gpufreq.sh
+
+[Install]
+WantedBy=multi-user.target
+WantedBy=cpuminerd.service

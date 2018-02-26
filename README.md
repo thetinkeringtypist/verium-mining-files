@@ -16,6 +16,18 @@ the most well engineered solutions, but they work for me (mostly).
 
 ![alt text](https://github.com/bezeredi/verium-mining-files/blob/master/issue.verium.png "Unicode Verium Logo")
 
+
+### Systemd Files & Scripts
+ * [cpuminer Service File](https://github.com/bezeredi/verium-mining-files/blob/master/cpuminerd.service)
+ * [Start cpuminerd Service File](https://github.com/bezeredi/verium-mining-files/blob/master/start-cpuminerd.sh)
+ * [Stop cpuminerd Service File](https://github.com/bezeredi/verium-mining-files/blob/master/stop-cpuminerd.sh)
+ * [cpuminerd Logrotate File](https://github.com/bezeredi/verium-mining-files/blob/master/cpuminerd.logrotate)
+ * [CPU Freq Service File](https://github.com/bezeredi/verium-mining-files/blob/master/cpufreqd.service)
+ * [Set CPU Freq Script](https://github.com/bezeredi/verium-mining-files/blob/master/set-cpufreq.sh)
+ * [GPU Freq Service File](https://github.com/bezeredi/verium-mining-files/blob/master/gpufreqd.service)
+ * [Set GPU Freq Script](https://github.com/bezeredi/verium-mining-files/blob/master/set-gpufreq.sh)
+
+
 ### Logfile Scripts
  * [Get Miner Status](https://github.com/bezeredi/verium-mining-files/blob/master/is-mining.sh)
  * [Get Miner Hashrate](https://github.com/bezeredi/verium-mining-files/blob/master/hashrate.sh)

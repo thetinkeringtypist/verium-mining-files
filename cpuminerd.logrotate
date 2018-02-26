@@ -1,0 +1,26 @@
+/var/log/cpuminerd/cpuminerd-1way.log {
+   rotate 30
+   daily
+   compress
+   missingok
+   notifempty
+   copytruncate
+}
+
+/var/log/cpuminerd/cpuminerd-3way.log {
+   rotate 30
+   daily
+   compress
+   missingok
+   notifempty
+   copytruncate
+}
+
+/var/log/cpuminerd/miner-apid.log {
+   rotate 30
+   daily
+   compress
+   missingok
+   notifempty
+   copytruncate
+}

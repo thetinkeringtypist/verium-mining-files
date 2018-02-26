@@ -1,0 +1,13 @@
+[Unit]
+Description="Verium Miner Daemon"
+After=network.target
+
+[Service]
+Type=forking
+User=miner
+ExecStart=/usr/local/bin/start-minerd.sh
+ExecStop=/usr/local/bin/stop-minerd.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
