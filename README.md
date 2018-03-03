@@ -43,4 +43,7 @@ the most well engineered solutions, but they work for me (mostly).
 
 License
 -------
-Free to use, just give credit where it's due.
+Free to use, just give credit where it's due. If this software helped you out,
+please consider making a donation:
+
+VRC/VRM: VBwPRc7gmmqgJTsiB6LqsStVk2nxgRoyjh
