@@ -18,14 +18,14 @@ the most well engineered solutions, but they work for me (mostly).
 
 
 ### Systemd Files & Scripts
- * [cpuminer Service File](https://github.com/bezeredi/verium-mining-files/blob/master/cpuminerd.service)
- * [Start cpuminerd Service File](https://github.com/bezeredi/verium-mining-files/blob/master/start-cpuminerd.sh)
- * [Stop cpuminerd Service File](https://github.com/bezeredi/verium-mining-files/blob/master/stop-cpuminerd.sh)
- * [cpuminerd Logrotate File](https://github.com/bezeredi/verium-mining-files/blob/master/cpuminerd.logrotate)
- * [CPU Freq Service File](https://github.com/bezeredi/verium-mining-files/blob/master/cpufreqd.service)
- * [Set CPU Freq Script](https://github.com/bezeredi/verium-mining-files/blob/master/set-cpufreq.sh)
- * [GPU Freq Service File](https://github.com/bezeredi/verium-mining-files/blob/master/gpufreqd.service)
- * [Set GPU Freq Script](https://github.com/bezeredi/verium-mining-files/blob/master/set-gpufreq.sh)
+ * [cpuminer Service File](https://github.com/bezeredi/verium-mining-files/blob/master/systemd/cpuminerd.service)
+ * [Start cpuminerd Service File](https://github.com/bezeredi/verium-mining-files/blob/master/systemd/start-cpuminerd.sh)
+ * [Stop cpuminerd Service File](https://github.com/bezeredi/verium-mining-files/blob/master/systemd/stop-cpuminerd.sh)
+ * [cpuminerd Logrotate File](https://github.com/bezeredi/verium-mining-files/blob/master/systemd/cpuminerd.logrotate)
+ * [CPU Freq Service File](https://github.com/bezeredi/verium-mining-files/blob/master/systemd/cpufreqd.service)
+ * [Set CPU Freq Script](https://github.com/bezeredi/verium-mining-files/blob/master/systemd/set-cpufreq.sh)
+ * [GPU Freq Service File](https://github.com/bezeredi/verium-mining-files/blob/master/systemd/gpufreqd.service)
+ * [Set GPU Freq Script](https://github.com/bezeredi/verium-mining-files/blob/master/systemd/set-gpufreq.sh)
 
 
 ### Logfile Scripts
