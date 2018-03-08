@@ -32,6 +32,7 @@ the most well engineered solutions, but they work for me (mostly).
  * [Get Miner Status](https://github.com/bezeredi/verium-mining-files/blob/master/is-mining.sh)
  * [Get Miner Hashrate](https://github.com/bezeredi/verium-mining-files/blob/master/hashrate.sh)
  * [Get Miner Shares](https://github.com/bezeredi/verium-mining-files/blob/master/shares.sh)
+ * [Get Miner Diff](https://github.com/bezeredi/verium-mining-files/blob/master/diff.sh)
  * [CPU Temp](https://github.com/bezeredi/verium-mining-files/blob/master/cputemp.sh)
 
 ### LAN Logfile Scripts
