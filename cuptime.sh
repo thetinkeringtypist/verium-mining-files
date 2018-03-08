@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-#! A script that calculates the hashrate of all machines on the network.
-hosts=$(cat "/home/$USERNAME/.chosts")
-script_dir="/home/$USERNAME/scripts"
+#! A script that calculates the uptime of all hosts listed in $HOME/.chosts
+hosts=$(cat "$HOME/.chosts")
+script_dir="$HOME"
 
 for host in $hosts; do
 	ping -q -c 1 "$host" >/dev/null

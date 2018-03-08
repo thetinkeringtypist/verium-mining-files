@@ -1,8 +1,10 @@
 #!/bin/bash
 #
-#! A script that calculates the hashrate of all machines on the network.
-hosts=$(cat "/home/$USERNAME/.chosts")
-script_dir="/home/$USERNAME/scripts"
+#! A script that reboots all hosts listed in $HOME/.chosts
+#
+#! Assumes authorized SSH key for root
+hosts=$(cat "$HOME/.chosts")
+script_dir="$HOME"
 
 for host in $hosts; do
 	ping -q -c 1 "$host" >/dev/null
@@ -13,5 +15,6 @@ for host in $hosts; do
 		continue
 	fi
 
-	echo -e "[$host]:\t\033[1;91mTODO: Reboot command\033[0m"
+	ssh "root@$host" "systemctl reboot" > /dev/null 2>&1
+	echo -e "[$host]:\trebooting..."
 done

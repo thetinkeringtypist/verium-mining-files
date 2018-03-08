@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-#! A script that calculates the hashrate of all machines on the network.
-hosts=$(cat "/home/$USERNAME/.chosts")
-script_dir="/home/$USERNAME/scripts"
+#! A script that calculates the CPU temp of all hosts listed in $HOME/.chosts
+hosts=$(cat "$HOME/.chosts")
+script_dir="$HOME"
 temp_sum=0
 count=0
 
