@@ -29,6 +29,7 @@ the most well engineered solutions, but they work for me (mostly).
 
 
 ### Logfile Scripts
+The following scripts are assumed to be placed in `$HOME`
  * [Get Miner Status](https://github.com/bezeredi/verium-mining-files/blob/master/is-mining.sh)
  * [Get Miner Hashrate](https://github.com/bezeredi/verium-mining-files/blob/master/hashrate.sh)
  * [Get Miner Shares](https://github.com/bezeredi/verium-mining-files/blob/master/shares.sh)
