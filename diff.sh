@@ -11,8 +11,8 @@ if [ "$is_mining" == "false" ]; then
    exit 1
 fi
 
-diff_1way=$(grep "difficulty" /var/log/minerd/minerd-1way.log | tail -n 1 | egrep -o "[0|1]\.[0-9]{1,}")
-diff_3way=$(grep "difficulty" /var/log/minerd/minerd-3way.log | tail -n 1 | egrep -o "[0|1]\.[0-9]{1,}")
+diff_1way=$(grep "difficulty" /var/log/cpuminerd/cpuminerd-1way.log | tail -n 1 | egrep -o "[0|1]\.[0-9]{1,}")
+diff_3way=$(grep "difficulty" /var/log/cpuminerd/cpuminerd-3way.log | tail -n 1 | egrep -o "[0|1]\.[0-9]{1,}")
 
 echo -e -n "[$hostname]:\t"
 if [ "$1" == "--1way" ] || [ "$1" == "--one-way" ] || [ "$1" == "--oneway" ]; then

@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #! Script to determine if the miner is running
-#  Fireworm's cpuminer is running under a service I created called minerd
+#  Fireworm's cpuminer is running under a service I created called cpuminerd
 hostname=$(hostname)
 
 result=$(systemctl status cpuminerd | grep "Active" | grep "running")
