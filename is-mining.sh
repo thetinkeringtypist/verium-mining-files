@@ -4,7 +4,7 @@
 #  Fireworm's cpuminer is running under a service I created called minerd
 hostname=$(hostname)
 
-result=$(systemctl status minerd | grep "Active" | grep "running")
+result=$(systemctl status cpuminerd | grep "Active" | grep "running")
 
 if [ $? -eq 0 ]; then
    echo "true"
