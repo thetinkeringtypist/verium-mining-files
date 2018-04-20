@@ -17,6 +17,9 @@ the most well engineered solutions, but they work for me (mostly).
 ![alt text](https://github.com/bezeredi/verium-mining-files/blob/master/issue.verium.png "Unicode Verium Logo")
 
 
+### Linux Image Scripts
+ * [ODROID: Capture SD Card Image](https://github.com/bezeredi/verium-mining-files/blob/master/sd2img.sh)
+
 ### Systemd Files & Scripts
  * [cpuminer Service File](https://github.com/bezeredi/verium-mining-files/blob/master/systemd/cpuminerd.service)
  * [Start cpuminerd Service File](https://github.com/bezeredi/verium-mining-files/blob/master/systemd/start-cpuminerd.sh)
@@ -35,6 +38,7 @@ The following scripts are assumed to be placed in `$HOME`
  * [Get Miner Shares](https://github.com/bezeredi/verium-mining-files/blob/master/shares.sh)
  * [Get Miner Diff](https://github.com/bezeredi/verium-mining-files/blob/master/diff.sh)
  * [CPU Temp](https://github.com/bezeredi/verium-mining-files/blob/master/cputemp.sh)
+
 
 ### LAN Logfile Scripts
  * [LAN Miner Hashrate](https://github.com/bezeredi/verium-mining-files/blob/master/chashrate.sh)
