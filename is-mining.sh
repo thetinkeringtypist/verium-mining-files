@@ -8,8 +8,8 @@ result=$(systemctl status cpuminerd | grep "Active" | grep "running")
 
 if [ $? -eq 0 ]; then
    echo "true"
-	return 0
+	exit 0
 else
    echo "false"
-	return 1
+	exit 1
 fi

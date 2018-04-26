@@ -11,10 +11,10 @@ if [ "$is_mining" == "false" ]; then
    exit
 fi
 
-percent_1way=$(grep "%" /var/log/minerd/minerd-1way.log | tail -n 1 | egrep -o "[0-9]+\.[0-9]{2}" | head -n 1)
-percent_3way=$(grep "%" /var/log/minerd/minerd-3way.log | tail -n 1 | egrep -o "[0-9]+\.[0-9]{2}" | head -n 1)
-shares_1way=$(grep "%" /var/log/minerd/minerd-1way.log | tail -n 1 | egrep -o "[0-9]+/[0-9]*")
-shares_3way=$(grep "%" /var/log/minerd/minerd-3way.log | tail -n 1 | egrep -o "[0-9]+/[0-9]*")
+percent_1way=$(grep "%" /var/log/cpuminerd/cpuminerd-1way.log | tail -n 1 | egrep -o "[0-9]+\.[0-9]{2}" | head -n 1)
+percent_3way=$(grep "%" /var/log/cpuminerd/cpuminerd-3way.log | tail -n 1 | egrep -o "[0-9]+\.[0-9]{2}" | head -n 1)
+shares_1way=$(grep "%" /var/log/cpuminerd/cpuminerd-1way.log | tail -n 1 | egrep -o "[0-9]+/[0-9]*")
+shares_3way=$(grep "%" /var/log/cpuminerd/cpuminerd-3way.log | tail -n 1 | egrep -o "[0-9]+/[0-9]*")
 
 percent_average=$(echo "scale=2; ($percent_1way + $percent_3way) / 2" | bc -l)
 

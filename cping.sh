@@ -17,6 +17,6 @@ for host in $hosts; do
 	if [ "$is_mining" == "true" ]; then
 		echo -e "[$host]:\t\033[1;92malive\033[0m (and \033[1;34mmining\033[0m)"
 	else
-		echo -e "[$host]:\t\033[1;92malive\033[0m (but \033[1;38mnot mining\033[0m)"
+		echo -e "[$host]:\t\033[1;92malive\033[0m (but \033[1;91mnot mining\033[0m)"
 	fi
 done

@@ -11,8 +11,8 @@ if [ "$is_mining" == "false" ]; then
    exit
 fi
 
-hash_1way=$(grep "H/m" /var/log/minerd/minerd-1way.log | tail -n 1 | egrep -o "[0-9]+\.[0-9]{3}")
-hash_3way=$(grep "H/m" /var/log/minerd/minerd-3way.log | tail -n 1 | egrep -o "[0-9]+\.[0-9]{3}")
+hash_1way=$(grep "H/m" /var/log/cpuminerd/cpuminerd-1way.log | tail -n 1 | egrep -o "[0-9]+\.[0-9]{3}")
+hash_3way=$(grep "H/m" /var/log/cpuminerd/cpuminerd-3way.log | tail -n 1 | egrep -o "[0-9]+\.[0-9]{3}")
 
 hash_sum=$(echo "$hash_1way + $hash_3way" | bc -l)
 
