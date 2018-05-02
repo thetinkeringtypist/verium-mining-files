@@ -1,0 +1,14 @@
+{
+   "url" : "<POOL_SERVER_URL>:<PORT_NUMBER>",
+   "user" : "<POOL_USERNAME>.<WORKER_NAME>",
+   "pass" : "<WORKER_PASSWORD>",
+
+   "oneways" : 3,
+   "cpu-affinity-oneway-index" : 1,
+   "cpu-affinity-stride" : 1,
+   "nfactor" : 1048576,
+   "api-bind" : "0.0.0.0:4049",
+   "api-remote" : true,
+   "randomize" : true,
+   "background" : true
+}

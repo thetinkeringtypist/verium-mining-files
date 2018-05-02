@@ -17,10 +17,13 @@ the most well engineered solutions, but they work for me (mostly).
 ![alt text](https://github.com/bezeredi/verium-mining-files/blob/master/issue.verium.png "Unicode Verium Logo")
 
 
-### Linux Image Scripts
+#### `cpuminer` Config Files
+ * [`cpuminer` Config Files](https://github.com/bezeredi/verium-mining-files/blob/master/config)
+
+#### Linux Image Scripts
  * [ODROID: Capture SD Card Image](https://github.com/bezeredi/verium-mining-files/blob/master/sd2img.sh)
 
-### Systemd Files & Scripts
+#### Systemd Files & Scripts
  * [cpuminer Service File](https://github.com/bezeredi/verium-mining-files/blob/master/systemd/cpuminerd.service)
  * [Start cpuminerd Service File](https://github.com/bezeredi/verium-mining-files/blob/master/systemd/start-cpuminerd.sh)
  * [Stop cpuminerd Service File](https://github.com/bezeredi/verium-mining-files/blob/master/systemd/stop-cpuminerd.sh)
@@ -31,7 +34,7 @@ the most well engineered solutions, but they work for me (mostly).
  * [Set GPU Freq Script](https://github.com/bezeredi/verium-mining-files/blob/master/systemd/set-gpufreq.sh)
 
 
-### Logfile Scripts
+#### Logfile Scripts
 The following scripts are assumed to be placed in `$HOME`
  * [Get Miner Status](https://github.com/bezeredi/verium-mining-files/blob/master/is-mining.sh)
  * [Get Miner Hashrate](https://github.com/bezeredi/verium-mining-files/blob/master/hashrate.sh)
@@ -40,7 +43,7 @@ The following scripts are assumed to be placed in `$HOME`
  * [CPU Temp](https://github.com/bezeredi/verium-mining-files/blob/master/cputemp.sh)
 
 
-### LAN Logfile Scripts
+#### LAN Logfile Scripts
  * [LAN Miner Hashrate](https://github.com/bezeredi/verium-mining-files/blob/master/chashrate.sh)
  * [LAN Miner Shares](https://github.com/bezeredi/verium-mining-files/blob/master/cshares.sh)
  * [LAN Ping](https://github.com/bezeredi/verium-mining-files/blob/master/cping.sh)
