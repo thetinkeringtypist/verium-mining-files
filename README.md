@@ -14,8 +14,11 @@ the most well engineered solutions, but they work for me (mostly).
 ### Pretty Verium Unicode Logon Picture
  * [Verium Unicode Picture](https://github.com/bezeredi/verium-mining-files/blob/master/issue.verium)
 
-![alt text](https://github.com/bezeredi/verium-mining-files/blob/master/issue.verium.png "Unicode Verium Logo")
+![Unicode Verium Logo](https://github.com/bezeredi/verium-mining-files/blob/master/issue.verium.png "Unicode Verium Logo")
 
+
+#### Kernel Patch and Config File
+ * [Kernel Patch and Config File](https://github.com/bezeredi/verium-mining-files/blob/master/kernel)
 
 #### `cpuminer` Config Files
  * [`cpuminer` Config Files](https://github.com/bezeredi/verium-mining-files/blob/master/config)

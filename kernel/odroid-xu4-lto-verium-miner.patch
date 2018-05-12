@@ -1,0 +1,38 @@
+diff --git a/Makefile b/Makefile
+index ee330f5..b9db675 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 4
+ PATCHLEVEL = 14
+ SUBLEVEL = 37
+-EXTRAVERSION =
++EXTRAVERSION = -lto
+ NAME = Petit Gorille
+ 
+ # *DOCUMENTATION*
+@@ -363,9 +363,14 @@ HOST_LFS_LIBS := $(shell getconf LFS_LIBS)
+ 
+ HOSTCC       = gcc
+ HOSTCXX      = g++
+-HOSTCFLAGS   := -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 \
++HOSTCFLAGS   := -Ofast -flto -fuse-linker-plugin \
++		-ftree-loop-if-convert-stores -march=native -mfpu=neon \
++		-Wall -Wmissing-prototypes -Wstrict-prototypes -O3 \
+ 		-fomit-frame-pointer -std=gnu89 $(HOST_LFS_CFLAGS)
+-HOSTCXXFLAGS := -O2 $(HOST_LFS_CFLAGS)
++HOSTCXXFLAGS   := -Ofast -flto -fuse-linker-plugin \
++		-ftree-loop-if-convert-stores -march=native -mfpu=neon \
++		-Wall -Wmissing-prototypes -Wstrict-prototypes -O3 \
++		$(HOST_LFS_CFLAGS)
+ HOSTLDFLAGS  := $(HOST_LFS_LDFLAGS)
+ HOST_LOADLIBES := $(HOST_LFS_LIBS)
+ 
+@@ -841,6 +846,7 @@ KBUILD_ARFLAGS := $(call ar-option,D)
+ include scripts/Makefile.kasan
+ include scripts/Makefile.extrawarn
+ include scripts/Makefile.ubsan
++include scripts/Makefile.lto
+ 
+ # Add any arch overrides and user supplied CPPFLAGS, AFLAGS and CFLAGS as the
+ # last assignments
