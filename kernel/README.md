@@ -8,7 +8,7 @@ include them; perhaps I'll include them in the future. The makefile was found
 The compiler flags were used from the [second part of birty's guide](https://steemit.com/verium/@birty/cpu-mining-is-back-a-complete-how-to-guide-and-profit-analysis-for-verium-mining-on-a-farm-of-single-board-computers-part-2b)
 to compile the `cpuminer`.
 
-Kernel config is for Hardkernel Linux version 4.14.37
+Kernel config is for [Hardkernel's odroidxu4-4.14.y linux branch](https://github.com/hardkernel/linux/tree/odroidxu4-4.14.y), version 4.14.37
 
 #### Appling the patch
 To apply the patch, clone a copy of Hardkernel's linux kernel and apply the
